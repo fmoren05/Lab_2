@@ -1,4 +1,4 @@
-# Authors: Connor Schott, Fermin Moreno, Berent Baysal
+# Authors: Conor Schott, Fermin Moreno, Berent Baysal
 # Class: Encoder
 # Data: 16th February 2024
 # Brief Description: This class implements an encoder reader using Pyboard's Timer and Pin modules.
@@ -57,7 +57,7 @@ class Encoder:
 
 
     def zero(self):
-        """
+        """!
         Sets the count to zero at the current position for both encoders.
         """
         self.cur_value = 0
